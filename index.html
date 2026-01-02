@@ -8,7 +8,6 @@
 <style>
 :root {
   --bg: #0f172a;
-  --card: #111827;
   --text: #e5e7eb;
   --muted: #9ca3af;
   --accent: #22c55e;
@@ -17,7 +16,7 @@
 
 body {
   margin: 0;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-family: system-ui, sans-serif;
   background: var(--bg);
   color: var(--text);
   line-height: 1.7;
@@ -29,29 +28,31 @@ body {
   padding: 40px 24px;
 }
 
-h1 { font-size: 42px; margin-bottom: 8px; }
-h2 { margin-top: 64px; border-bottom: 2px solid var(--border); padding-bottom: 8px; }
+h1 { font-size: 42px; }
+h2 { margin-top: 60px; border-bottom: 2px solid var(--border); padding-bottom: 6px; }
 h3 { margin-top: 28px; }
 
-p { color: var(--muted); }
+p, li { color: var(--muted); }
 
-a { color: var(--accent); text-decoration: none; }
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+a:hover { text-decoration: underline; }
 
 .btn {
   display: inline-block;
   padding: 12px 18px;
-  border-radius: 8px;
   background: var(--accent);
   color: #022c22;
   font-weight: 600;
+  border-radius: 8px;
 }
 
 .section { margin-top: 48px; }
 
-ul { color: var(--muted); }
-
 footer {
-  margin-top: 96px;
+  margin-top: 80px;
   text-align: center;
   color: var(--muted);
   font-size: 14px;
@@ -64,10 +65,7 @@ footer {
 
 <!-- HERO -->
 <h1>Patrick Gervadis Ninan</h1>
-<p>
-<strong>Data Scientist</strong> with 3+ years of experience delivering machine learning and analytics
-across risk, business operations, HR analytics, and automation.
-</p>
+<p><strong>Data Scientist</strong> | Analytics | Machine Learning | AI</p>
 
 <a class="btn" href="Patrick_Ninan_JAN2025__RESUME__.pdf" target="_blank">
 ⬇ Download Resume
@@ -76,129 +74,116 @@ across risk, business operations, HR analytics, and automation.
 <p style="margin-top:14px">
 📧 patrickninan7@gmail.com | pninan5@gmail.com<br>
 📞 +1 (945) 209-9003<br>
-🔗 LinkedIn: linkedin.com/in/patrick-gervadis-ninan<br>
-💻 GitHub: github.com/pninan5
+🔗 <a href="https://www.linkedin.com/in/patrick-gervadis-ninan/" target="_blank">LinkedIn</a> |
+💻 <a href="https://github.com/pninan5" target="_blank">GitHub</a>
 </p>
 
 <!-- ABOUT -->
 <div class="section">
 <h2>About Me</h2>
-
 <p>
 I am a Data Scientist with over three years of professional experience applying machine learning,
 analytics, and experimentation to real-world business problems across risk, business operations,
-HR analytics, and automation. I specialize in Python, AI, and SQL, building end-to-end solutions
-from feature engineering and model evaluation to production-ready analytics.
+HR analytics, and automation. I specialize in Python, SQL, and applied machine learning,
+building end-to-end solutions from data exploration to insight delivery.
 </p>
-
 <p>
 I recently completed my Master’s in <strong>Business Analytics and Artificial Intelligence</strong>
-from <strong>The University of Texas at Dallas</strong> (GPA 3.8). My background in Computer Science
-allows me to approach problems with strong engineering discipline while staying focused on
-measurable business impact.
-</p>
-
-<p>
-Outside of work, I play football (soccer) and basketball, lead my intramural futsal team,
-run regularly, and enjoy chess and logic puzzles — all of which influence how I think about
-strategy, optimization, and problem-solving.
+from <strong>The University of Texas at Dallas</strong> (GPA 3.8). Outside of work, I play football (soccer),
+basketball, run regularly, and enjoy chess and logic puzzles, which strongly influence my
+problem-solving and strategic thinking.
 </p>
 </div>
 
-<!-- EXPERIENCE (FROM NEW RESUME ONLY) -->
+<!-- EXPERIENCE -->
 <div class="section">
 <h2>Professional Experience</h2>
 
 <h3>Data Scientist, Team Captain | Community Dreams Foundation</h3>
-<p>August 2025 – Present</p>
+<p>Aug 2025 – Present</p>
 <ul>
-<li>Led a 5-person team delivering an internal job portal for 200+ members with 90+ job postings</li>
-<li>Built KPI reporting to track alumni engagement and applications, guiding program decisions</li>
+<li>Led a 5-person team delivering an internal job portal for 200+ members and 90+ job postings</li>
+<li>Built KPI reporting to track alumni engagement and application outcomes</li>
 </ul>
 
 <h3>Data Analyst – IT Security (Part-Time) | Office of Information Technology, UT Dallas</h3>
-<p>August 2024 – December 2024</p>
+<p>Aug 2024 – Dec 2024</p>
 <ul>
 <li>Validated server backup data across multiple servers, achieving 99.5% validation accuracy</li>
-<li>Built Power BI dashboards and anomaly alerts, lowering vulnerability exposure risk by 25%</li>
-<li>Applied SageMaker clustering and threshold tuning to prioritize incidents across teams</li>
+<li>Built Power BI dashboards and anomaly alerts, reducing vulnerability exposure risk by 25%</li>
+<li>Applied SageMaker clustering and threshold tuning to prioritize incidents</li>
 </ul>
 
 <h3>Senior Data Science Analyst – Business Operations | Infosys Ltd</h3>
-<p>December 2021 – July 2022</p>
+<p>Dec 2021 – Jul 2022</p>
 <ul>
-<li>Implemented executive dashboards for utilization, SLA, and cycle time, improving efficiency by 20%</li>
+<li>Built executive dashboards for utilization, SLA, and cycle time, improving efficiency by 20%</li>
 <li>Led enterprise data migration with 98% accuracy, reducing downtime by 40%</li>
 <li>Developed HRIS attrition risk models, improving workforce planning accuracy by 18%</li>
 </ul>
 
 <h3>Data Science Analyst – Automation & Process Improvement | Infosys Ltd</h3>
-<p>September 2019 – December 2021</p>
+<p>Jan 2019 – Dec 2021</p>
 <ul>
 <li>Delivered 10+ automation solutions, reducing onboarding effort by 45%</li>
 <li>Used hypothesis testing and clustering to optimize staffing, reducing underutilization by 35%</li>
 <li>Developed analytics pipelines across 8 departments, saving 500+ staff hours annually</li>
 </ul>
-</div>
 
 <h3>Data Analyst Intern | Infosys Ltd</h3>
-<p>January 2019 – May 2019</p>
+<p>Jan 2019 – May 2019</p>
 <ul>
 <li>Implemented Tableau dashboards and SQL analysis, lowering reporting turnaround time by 40%</li>
-<li>Improved upon coding and reporting skills</li>
 </ul>
 </div>
 
-<!-- PROJECTS (FROM OG RESUME ONLY) -->
+<!-- PROJECTS -->
 <div class="section">
-<h2>Academic & Project Experience</h2>
+<h2>Projects</h2>
 
 <h3>AI & Machine Learning</h3>
 <ul>
-<li>AI Fitness Coach – Generative AI assistant using GPT and Streamlit</li>
-<li>AI-Powered Stock Sentiment Analyzer – Real-time Reddit NLP sentiment analysis</li>
-<li>Credit Card Fraud Detection – XGBoost on imbalanced data (AUC 0.972)</li>
-<li>Healthcare Readmission Prediction – Explainable ML with SHAP</li>
-<li>EY Biodiversity Challenge – Species prediction using satellite climate data (84% accuracy)</li>
-<li>AI Fraud Detection Agent – LightGBM-based decisioning agent with Streamlit workflow</li>
+<li><a href="https://github.com/pninan5/ai_fitness_coach" target="_blank">AI Fitness Coach</a></li>
+<li><a href="https://github.com/pninan5/stock_sentiment_agent" target="_blank">AI-Powered Stock Sentiment Analyzer</a></li>
+<li><a href="https://github.com/pninan5/Credit-Card-Fraud-Detection" target="_blank">Credit Card Fraud Detection</a></li>
+<li><a href="https://github.com/pninan5/HealthCare_Analysis" target="_blank">Healthcare Readmission Prediction</a></li>
+<li><a href="https://github.com/pninan5/EY_Biodiversity-Challenge" target="_blank">EY Biodiversity Challenge</a></li>
+<li>AI Fraud Detection Agent (LightGBM, Streamlit)</li>
 </ul>
 
 <h3>Analytics & Experimentation</h3>
 <ul>
-<li>Customer Churn Prediction – ROC AUC 0.84, improved retention targeting by 20%</li>
-<li>A/B Testing & Pricing Simulation – 87% simulated profitability (~$165K revenue impact)</li>
-<li>Marketing Campaign Response Prediction – Random Forest (84.4% accuracy, 86.7% AUC)</li>
-<li>House Price Prediction – Regression models with GridSearchCV</li>
+<li><a href="https://github.com/pninan5/Customer-Churn-Analysis" target="_blank">Customer Churn Prediction</a></li>
+<li><a href="https://github.com/pninan5/ABTestingSim" target="_blank">A/B Testing & Pricing Simulation</a></li>
+<li><a href="https://github.com/pninan5/Marketing-Campaign-Analysis" target="_blank">Marketing Campaign Response Modeling</a></li>
+<li><a href="https://github.com/pninan5/house_price_prediction" target="_blank">House Price Prediction</a></li>
 </ul>
 
 <h3>BI, Systems & Recommendations</h3>
 <ul>
-<li>Movie Recommendation System – KNN-based recommender (RMSE ~1.03)</li>
-<li>Inventory Analytics Dashboard – Power BI and SQL</li>
-<li>COVID Database Development – Normalized SQL schema, ETL-ready</li>
-<li>Network Fault Classification – Multi-class ML for telecom fault detection</li>
-<li>North American University Admission Predictor – Logistic regression and clustering</li>
-</ul>
-</div>
-
-<!-- CERTIFICATIONS -->
-<div class="section">
-<h2>Certifications</h2>
-<ul>
-<li>Snowflake Certified – Snowflake Data Platform</li>
-<li>Graduate Certificate in Machine Learning</li>
-<li>Graduate Certificate in Business Decision Analytics</li>
-<li>Graduate Certificate in BI & Data Mining</li>
-<li>AWS Machine Learning Associate</li>
+<li><a href="https://github.com/pninan5/Movie-Recommendation-System" target="_blank">Movie Recommendation System</a></li>
+<li><a href="https://github.com/pninan5/Inventory-analysis" target="_blank">Inventory Analytics Dashboard</a></li>
+<li><a href="https://github.com/pninan5/DB-Development---COVID-Database" target="_blank">COVID Database Development</a></li>
+<li>Network Fault Classification (Multi-class ML)</li>
+<li><a href="https://github.com/pninan5/North-American-University-Admission" target="_blank">North American University Admission Predictor</a></li>
 </ul>
 </div>
 
 <!-- LEADERSHIP -->
 <div class="section">
-<h2>Leadership & Teaching</h2>
+<h2>Leadership & Involvement</h2>
+
+<h3>Graduate Teaching Assistant | University of Texas at Dallas</h3>
 <ul>
-<li>Graduate Teaching Assistant – University of Texas at Dallas (Super TA)</li>
-<li>Intramural Futsal Team Captain</li>
+<li>Mentored 80+ graduate students in prescriptive analytics, statistical modeling, and optimization</li>
+<li>Assisted with grading, project evaluations, and exam preparation for analytics coursework</li>
+<li>Held office hours to support students with Python, R, and analytical problem-solving</li>
+</ul>
+
+<ul>
+<li>AWS Club Member – University of Texas at Dallas</li>
+<li>Toastmasters UT Dallas Member – Public speaking and leadership development</li>
+<li>INFORMS Member – Institute for Operations Research and the Management Sciences</li>
 </ul>
 </div>
 
